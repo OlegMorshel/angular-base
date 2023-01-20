@@ -1,0 +1,27 @@
+.card {
+  width: 100%;
+  padding: 16px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  background: white;
+  max-width: -webkit-fill-available;
+
+  .title{
+    font-family: sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 600;
+    color: black;
+    margin: 0 0 12px 0;
+  }
+  .text{
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: black;
+  }
+}
+
+.card + .card {
+  margin-top: 16px;
+}

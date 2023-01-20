@@ -1,0 +1,23 @@
+.container {
+  max-width: 80vw;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 24px auto;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: black;
+  margin-bottom: 24px;
+}
+.post-list {
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}

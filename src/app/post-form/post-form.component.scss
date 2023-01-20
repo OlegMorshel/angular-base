@@ -1,0 +1,14 @@
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.form-control + .form-control {
+  margin-top: 16px;
+}
+
+.btn{
+  margin-top: 16px;
+}
